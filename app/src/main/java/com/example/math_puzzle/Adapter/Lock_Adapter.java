@@ -35,10 +35,10 @@ public class Lock_Adapter extends BaseAdapter {
     @Override
     public View getView(int position, View view, ViewGroup parent) {
 
-        view = LayoutInflater.from(lock_page_activity).inflate(R.layout.lock_page_item_layout,parent);
+        view = LayoutInflater.from(lock_page_activity).inflate(R.layout.lock_page_item_layout,parent,false);
 
         ImageView imageView = view.findViewById(R.id.lock);
-        imageView.setImageDrawable(R.drawable.lock);
+        imageView.setImageDrawable(lock_page_activity.getDrawable(R.drawable.lock));
         return view;
     }
 }

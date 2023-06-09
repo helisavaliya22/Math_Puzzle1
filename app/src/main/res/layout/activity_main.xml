@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:text="CONTINUE"
                 android:textSize="20dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="20dp"
                 android:textColor="@color/white"
                 android:gravity="center" />
 
@@ -48,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:text="PUZZLES"
                 android:textSize="20dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="20dp"
                 android:textColor="@color/white"
                 android:gravity="center" />
 
@@ -57,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:text="BUY PRO"
                 android:textSize="20dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="20dp"
                 android:textColor="@color/white"
                 android:gravity="center" />
         </LinearLayout>
@@ -103,15 +103,15 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1">
                 <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:background="@drawable/sharebutton"
                     android:padding="10dp"
                     android:src="@drawable/shareus" />
 
                 <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:background="@drawable/sharebutton"
                     android:padding="10dp"
                     android:layout_marginLeft="10dp"
